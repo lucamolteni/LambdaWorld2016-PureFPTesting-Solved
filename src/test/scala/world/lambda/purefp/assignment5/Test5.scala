@@ -7,7 +7,7 @@ class Test5 extends Specification {
 
     val cafe = new PureCafe()
 
-    val result = cafe.buyCoffee(new CreditCard())
+    val result: (Coffee, Charge) = cafe.buyCoffee(new CreditCard())
 
     result._2.amount === 1
   }

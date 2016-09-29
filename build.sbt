@@ -2,7 +2,7 @@ javacOptions ++= Seq("-source", "1.8", "-target", "1.8", "-Xlint")
 
 
 lazy val root = (project in file(".")).settings(
-  name := "hello",
+  name := "LambdaWorld2016-Solved",
   version := "1.0",
   scalaVersion := "2.11.8"
 )
